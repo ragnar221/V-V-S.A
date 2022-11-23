@@ -332,7 +332,7 @@ span{
         align-items: center;
     }
     h1{
-        width: 570px;
+        font-size: 30px;
     }
     .hero-choice{
         justify-content: center;
