@@ -23,6 +23,7 @@ header{
     height: 100px;
     display: flex;
     gap: 800px;
+    z-index: 1;
  }   
 .logo{
     width: 100px;
@@ -41,6 +42,9 @@ nav{
     align-items: center;
     position: fixed;
     border-bottom-style: groove;
+}
+nav i{
+    display: none;
 }
 .container-nav{
     width: 1400px;
@@ -78,13 +82,13 @@ section{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 800px;
+    height: 600px;
 }
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--amarilloraro);
     font-size: 40px;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 .intro{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -100,11 +104,11 @@ h1{
     justify-content: center;
 }
 .security-hero{
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     margin: 70px;
     border-radius: 1em;
-    box-shadow: 1px 5px 6px 2px;
+    box-shadow: 6px 5px 6px 5px;
 }
 .hero-choice{
     display: flex;
@@ -140,4 +144,170 @@ h1{
     text-align: center;
     color: var(--blancoyeso);
 }
-
+.ventajas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cac7a1;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.ventajas-descripcion{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #dfd0c1;
+    margin-bottom: 40px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #3e5151;
+}
+.personal{
+    background-color: #dfd0c1;
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px;
+}
+.personal:hover{
+    background-color: #306d6c;
+    color: #cac7a1;
+}
+.tecnologia{
+    background-color: #dfd0c1;
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px;
+}
+.tecnologia:hover{
+    background-color: #306d6c;
+    color: #cac7a1;
+}
+.cyber-seguridad{
+    background-color: #dfd0c1;
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px;
+}
+.cyber-seguridad:hover{
+    background-color: #306d6c;
+    color: #cac7a1;
+}
+.detalles{
+    color: #3e5151;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.guardia{
+    height: 100px;
+    width: 50px;
+    margin-bottom: 30px;
+}
+.camera{
+    height: 100px;
+    width: 120px;
+    margin-bottom: 30px;
+}
+.pc{
+    height: 100px;
+    width: 120px;
+    margin-bottom: 30px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: #dfd0c1;
+    display: flex;
+    justify-content: space-between;
+    border-top-style: groove;
+    border-color: #cac7a1;
+}
+.conjunto-datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contacto{
+    color: #dfd0c1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.listas{
+    display: flex;
+    flex-direction: row;
+}
+.caba{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+.ituzaingo{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+span{
+    font-weight: 700;
+}
+.logo-footer{
+    width: 180px;
+    height: 180px;
+    border-radius: 1rem;
+    margin: 10px;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+}
+.facebook{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.instagram{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.twitter{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
