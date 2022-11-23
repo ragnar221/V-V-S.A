@@ -11,6 +11,7 @@
 --azulverdozo: #214f56;
 --azulado: #306d6c;
 }
+
 *{
     margin: 0%;
     padding: 0%;
@@ -24,7 +25,8 @@ header{
     display: flex;
     gap: 800px;
     z-index: 1;
- }   
+ }
+
 .logo{
     width: 100px;
     height: 100px;
@@ -43,24 +45,29 @@ nav{
     position: fixed;
     border-bottom-style: groove;
 }
+
 .container-nav{
     width: 100%;
 }
-.hamburguesa{
+
+.toggle-menu{
     width: 30px;
     height: 30px;
+    margin-right: 200px;
     display: none;
 }
+
 input{
     display: none;
 }
-ul{
+
+.links{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 20px;
-    
+    gap: 20px;   
 }
+
 a{
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
@@ -71,20 +78,24 @@ a{
     text-align: center;
     justify-content: center;
 }
+
 .contrato{
     width: 40px;
     height: 40px;
     border-radius: 1em;
     margin-right: 20px;
 }
+
 .manos{
     display: flex;
     align-self: center;
     justify-content: flex-end;
 }
+
 body{
     width: 100%;
 }
+
 section{
     background-color: var(--azulfondo);
     display: flex;
@@ -92,12 +103,14 @@ section{
     width: 100%;
     height: 600px;
 }
+
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--amarilloraro);
     font-size: 40px;
     margin-top: 100px;
 }
+
 .intro{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:var(--granite-gray);
@@ -106,11 +119,13 @@ h1{
     height: 100px;
     margin: 20px;
 }
+
 .tapa{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .security-hero{
     width: 600px;
     height: 400px;
@@ -122,6 +137,7 @@ h1{
     display: flex;
     justify-content: center;
 }
+
 .hero-choice1{
     background-color: var(--grullo);
     padding: 7px;
@@ -129,6 +145,7 @@ h1{
     border:solid 3px black;
     text-decoration: dashed;
 }
+
 .hero-choice2{
     background-color: var(--grullo);
     padding: 7px;
@@ -136,14 +153,17 @@ h1{
     border:solid 3px black;
     text-decoration: dashed;
 }
+
 .hero-choice1:hover {
     background-color: #306d6c;
     color: #cac7a1;
 }
+
 .hero-choice2:hover {
     background-color: #306d6c;
     color: #cac7a1;
 }
+
 .descripcion{
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
@@ -152,12 +172,14 @@ h1{
     text-align: center;
     color: var(--blancoyeso);
 }
+
 .ventajas{
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
 }
+
 h2{
     font-family: Arial, Helvetica, sans-serif;
     color: #cac7a1;
@@ -165,6 +187,7 @@ h2{
     font-weight: 800;
     margin-bottom: 20px;
 }
+
 .ventajas-descripcion{
     text-align: center;
     font-size: 20px;
@@ -172,16 +195,19 @@ h2{
     color: #dfd0c1;
     margin-bottom: 40px;
 }
+
 .cards{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+
 h3{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     color: #3e5151;
 }
+
 .personal{
     background-color: #dfd0c1;
     width: 300px;
@@ -194,10 +220,12 @@ h3{
     align-items: center;
     box-shadow: 10px 10px 10px 10px;
 }
+
 .personal:hover{
     background-color: #306d6c;
     color: #cac7a1;
 }
+
 .tecnologia{
     background-color: #dfd0c1;
     width: 300px;
@@ -210,10 +238,12 @@ h3{
     align-items: center;
     box-shadow: 10px 10px 10px 10px;
 }
+
 .tecnologia:hover{
     background-color: #306d6c;
     color: #cac7a1;
 }
+
 .cyber-seguridad{
     background-color: #dfd0c1;
     width: 300px;
@@ -226,10 +256,12 @@ h3{
     align-items: center;
     box-shadow: 10px 10px 10px 10px;
 }
+
 .cyber-seguridad:hover{
     background-color: #306d6c;
     color: #cac7a1;
 }
+
 .detalles{
     color: #3e5151;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -237,21 +269,25 @@ h3{
     font-weight: 700;
     margin-top: 10px;
 }
+
 .guardia{
     height: 100px;
     width: 50px;
     margin-bottom: 30px;
 }
+
 .camera{
     height: 100px;
     width: 120px;
     margin-bottom: 30px;
 }
+
 .pc{
     height: 100px;
     width: 120px;
     margin-bottom: 30px;
 }
+
 footer{
     width: 100%;
     height: 200px;
@@ -262,21 +298,25 @@ footer{
     border-top-style: groove;
     border-color: #cac7a1;
 }
+
 .conjunto-datos{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
+
 .contacto{
     color: #dfd0c1;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
     margin-left: 10px;
 }
+
 .listas{
     display: flex;
     flex-direction: row;
 }
+
 .caba{
     display: flex;
     flex-direction: column;
@@ -284,6 +324,7 @@ footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 10px;
 }
+
 .ituzaingo{
     display: flex;
     flex-direction: column;
@@ -291,43 +332,97 @@ footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 10px;
 }
+
 span{
     font-weight: 700;
 }
+
 .logo-footer{
     width: 180px;
     height: 180px;
     border-radius: 1rem;
     margin: 10px;
 }
+
 .logos{
     display: flex;
     flex-direction: row;
 }
+
 .facebook{
     width: 20px;
     height: 20px;
     margin-right: 10px;
 }
+
 .instagram{
     width: 20px;
     height: 20px;
     margin-right: 10px;
 }
+
 .twitter{
     width: 20px;
     height: 20px;
     margin-right: 10px;
 }
+
 @media (max-width:992px) {
+    
+    .links{
+        position: absolute;
+        top: 103px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background: #3e5151; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #3e5151, #decba4); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #3e5151, #decba4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+        border: solid 2px var(--black-coral); 
+        border-top: none;
+        border-radius: 0px 0px 5px 5px;
+        align-items: flex-start;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 2;
+        display: none;
+    }
+    
+    a{
+        color: #dfd0c1;
+    }
+    
+    input{
+        display: flex;
+    }
+    
+    .menu-logo{
+        width: 40px;
+        height: 40px;
+    }
+    .toggle-menu{
+        display: flex;
+    }
+    
+    .toggle-menu:checked + .links{
+        display: flex;
+    }
+    
+    .manos{
+        display: none;
+    }
+    
     .security-hero{
         width: 200px;
         height: 150px;
     }
+    
     .hero-choice{
         justify-content: left;
     }
 }
+
 @media (max-width:576px) {
     ul{
         display: none;
@@ -378,4 +473,4 @@ span{
      .logo-footer{
       display: none;
      }
-}
+     }
