@@ -333,6 +333,7 @@ span{
     }
     h1{
         font-size: 30px;
+        width: 500px;
     }
     .hero-choice{
         justify-content: center;
@@ -355,5 +356,10 @@ span{
      }
      .cyber-seguridad{
         margin-bottom: 25px;
+     }
+     .logo-footer{
+        width: 100px;
+        height: 100px;
+        margin: 40px;
      }
 }
