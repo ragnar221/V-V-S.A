@@ -43,9 +43,6 @@ nav{
     position: fixed;
     border-bottom-style: groove;
 }
-nav i{
-    display: none;
-}
 .container-nav{
     width: 1400px;
 }
@@ -76,6 +73,9 @@ a{
     display: flex;
     align-self: center;
     justify-content: flex-end;
+}
+body{
+    width: 100%;
 }
 section{
     background-color: var(--azulfondo);
@@ -310,4 +310,47 @@ span{
     width: 20px;
     height: 20px;
     margin-right: 10px;
+}
+@media (max-width:992px) {
+    .security-hero{
+        width: 200px;
+        height: 150px;
+    }
+    .hero-choice{
+        justify-content: left;
+    }
+}
+@media (max-width:576px) {
+    .security-hero{
+        display: none;
+    }
+    .tapa{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .hero-choice{
+        justify-content: center;
+    }
+     .descripcion{
+        width: 500px;
+     }   
+     .ventajas{
+        height: 1200px;
+     }
+     .cards{
+        flex-direction: column;
+        align-items: center;
+     }
+     .personal{
+        margin-bottom: 25px;
+     }
+     .tecnologia{
+        margin-bottom: 25px;
+     }
+     .cyber-seguridad{
+        margin-bottom: 25px;
+     }
 }
