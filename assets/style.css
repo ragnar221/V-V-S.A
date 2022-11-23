@@ -331,6 +331,9 @@ span{
         text-align: center;
         align-items: center;
     }
+    h1{
+        width: 570px;
+    }
     .hero-choice{
         justify-content: center;
     }
