@@ -44,7 +44,15 @@ nav{
     border-bottom-style: groove;
 }
 .container-nav{
-    width: 1400px;
+    width: 100%;
+}
+.hamburguesa{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+input{
+    display: none;
 }
 ul{
     display: flex;
@@ -321,6 +329,16 @@ span{
     }
 }
 @media (max-width:576px) {
+    ul{
+        display: none;
+    }
+    .manos{
+        display: none;
+    }
+    .hamburguesa{
+        display: flex;
+        justify-content: right;
+    }
     .security-hero{
         display: none;
     }
